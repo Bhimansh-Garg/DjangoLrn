@@ -1,0 +1,16 @@
+body.about-page{
+    background-color: blue;
+}
+
+body.home-page{
+    background-color: rgb(16, 16, 93);
+    color: white;
+}
+body.contact-page{
+    background-color: black;
+    color:white;
+}
+h1{
+    text-align: center;
+    font-size: 2em ;
+}
