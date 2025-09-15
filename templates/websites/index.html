@@ -1,13 +1,9 @@
-{% load static %}
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8" />
-    <title>DjangoLrn</title>
-    <link rel="stylesheet" href="{% static 'style.css' %}">
-</head>
-<body  class="home-page">
-    {% if page}
-    <h1>djangoBody</h1>
-</body>
-</html>
+{% extends "layouts.html" %}
+
+{% block title %}
+Home Page
+{% endblock %}
+
+{%block content%}
+<h1>DjangoLrn Home Page</h1>
+{%endblock%}
